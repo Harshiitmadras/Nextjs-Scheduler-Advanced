@@ -85,7 +85,6 @@ To get a local copy up and running, please follow these simple steps.
 
 ### Prerequisites
 
-Here is what you need to be able to run Cal.com.
 
 - Node.js (Version: >=18.x)
 - PostgreSQL (Version: >=13.x)
@@ -99,7 +98,7 @@ Here is what you need to be able to run Cal.com.
 
 1. Clone the repo into a public GitHub repository (or fork https://github.com/calcom/cal.com/fork). 
    ```sh
-   git clone https://github.com/calcom/cal.com.git
+   git clone https://github.com/Harshiitmadras/Nextjs-Scheduler-Advanced
    ```
 
    > If you are on Windows, run the following command on `gitbash` with admin privileges: <br> > `git clone -c core.symlinks=true https://github.com/calcom/cal.com.git` <br>
@@ -108,7 +107,7 @@ Here is what you need to be able to run Cal.com.
 2. Go to the project folder
 
    ```sh
-   cd cal.com
+    cd Nextjs-Scheduler-Advanced
    ```
 
 3. Install packages with yarn
@@ -174,59 +173,6 @@ echo 'NEXT_PUBLIC_LOGGER_LEVEL=3' >> .env
 
 for Logger level to be set at info, for example.
 
-#### Gitpod Setup
-
-1. Click the button below to open this project in Gitpod.
-
-2. This will open a fully configured workspace in your browser with all the necessary dependencies already installed.
-
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/calcom/cal.com)
-
-#### Manual setup
-
-1. Configure environment variables in the `.env` file. Replace `<user>`, `<pass>`, `<db-host>`, and `<db-port>` with their applicable values
-
-   ```
-   DATABASE_URL='postgresql://<user>:<pass>@<db-host>:<db-port>'
-   ```
-
-   <details>
-   <summary>If you don't know how to configure the DATABASE_URL, then follow the steps here to create a quick local DB</summary>
-
-   1. [Download](https://www.postgresql.org/download/) and install postgres in your local (if you don't have it already).
-
-   2. Create your own local db by executing `createDB <DB name>`
-
-   3. Now open your psql shell with the DB you created: `psql -h localhost -U postgres -d <DB name>`
-
-   4. Inside the psql shell execute `\conninfo`. And you will get the following info.  
-      ![image](https://user-images.githubusercontent.com/39329182/236612291-51d87f69-6dc1-4a23-bf4d-1ca1754e0a35.png)
-
-   5. Now extract all the info and add it to your DATABASE_URL. The url would look something like this
-      `postgresql://postgres:postgres@localhost:5432/Your-DB-Name`. The port is configurable and does not have to be 5432.
-
-   </details>
-
-   If you don't want to create a local DB. Then you can also consider using services like railway.app or render.
-
-   - [Setup postgres DB with railway.app](https://docs.railway.app/guides/postgresql)
-   - [Setup postgres DB with render](https://render.com/docs/databases)
-
-1. Copy and paste your `DATABASE_URL` from `.env` to `.env.appStore`.
-
-1. Set up the database using the Prisma schema (found in `packages/prisma/schema.prisma`)
-
-   In a development environment, run:
-
-   ```sh
-   yarn workspace @calcom/prisma db-migrate
-   ```
-
-   In a production environment, run:
-
-   ```sh
-   yarn workspace @calcom/prisma db-deploy
-   ```
 
 1. Run [mailhog](https://github.com/mailhog/MailHog) to view emails sent during development
 
