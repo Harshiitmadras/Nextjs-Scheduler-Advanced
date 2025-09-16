@@ -1,10 +1,10 @@
 <!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://github.com/calcom/cal.com">
-   <img src="https://user-images.githubusercontent.com/8019099/210054112-5955e812-a76e-4160-9ddd-58f2c72f1cce.png" alt="Logo">
+  
+   
   </a>
 
-  <h3 align="center">Cal.com (formerly Calendso)</h3>
+  <h3 align="center">Avanced Scheduler</h3>
 
   <p align="center">
     The open-source Calendly successor.
@@ -12,33 +12,14 @@
     <a href="https://cal.com"><strong>Learn more »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/calcom/cal.com/discussions">Discussions</a>
-    ·
-    <a href="https://cal.com">Website</a>
-    ·
-    <a href="https://github.com/calcom/cal.com/issues">Issues</a>
-    ·
-    <a href="https://cal.com/roadmap">Roadmap</a>
+    
   </p>
 </p>
 
 <p align="center">
-   <a href="https://www.producthunt.com/products/cal-com"><img src="https://img.shields.io/badge/Product%20Hunt-%231%20Product%20of%20the%20Month-%23DA552E" alt="Product Hunt"></a>
-   <img src="https://api.checklyhq.com/v1/badges/groups/1120718?style=flat&theme=default" alt="Checkly QA">
-   <a href="https://status.cal.com"><img height="20px" src="https://betteruptime.com/status-badges/v1/monitor/a9kf.svg" alt="Uptime"></a>
-   <a href="https://github.com/calcom/cal.com/stargazers"><img src="https://img.shields.io/github/stars/calcom/cal.com" alt="Github Stars"></a>
-   <a href="https://news.ycombinator.com/item?id=34507672"><img src="https://img.shields.io/badge/Hacker%20News-%231-%23FF6600" alt="Hacker News"></a>
-   <a href="https://github.com/calcom/cal.com/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-AGPLv3-purple" alt="License"></a>
-   <a href="https://github.com/calcom/cal.com/pulse"><img src="https://img.shields.io/github/commit-activity/m/calcom/cal.com" alt="Commits-per-month"></a>
-   <a href="https://cal.com/pricing"><img src="https://img.shields.io/badge/Pricing-Free-brightgreen" alt="Pricing"></a>
-   <a href="https://jitsu.com?utm_source=github/calcom/cal.com"><img src="https://img.shields.io/badge/Metrics_tracked_by-JITSU-AA00FF?logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACKSURBVHgBrZDRCYAwDEQv6gCOoKO4hOCXI9QVnEZwiY5iF5GaVClaBNtioCSUvCR3tMJaxIfZgW4AGUoEPVwgPZoS0Dmgg3NBVDFNbMIsmYCak3J1jDk9iCQvsKJvkzr71N81Gj6vDT/LU2P6RhY63jcafk3YJEbgeZpiFyc/5HJKv8Ef273NSfABGbQfUZhnOSAAAAAASUVORK5CYII=" alt="Jitsu Tracked"></a>
+logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAACKSURBVHgBrZDRCYAwDEQv6gCOoKO4hOCXI9QVnEZwiY5iF5GaVClaBNtioCSUvCR3tMJaxIfZgW4AGUoEPVwgPZoS0Dmgg3NBVDFNbMIsmYCak3J1jDk9iCQvsKJvkzr71N81Gj6vDT/LU2P6RhY63jcafk3YJEbgeZpiFyc/5HJKv8Ef273NSfABGbQfUZhnOSAAAAAASUVORK5CYII=" alt="Jitsu Tracked"></a>
    <img src="https://api.checklyhq.com/v1/badges/checks/5e048048-1b51-47ba-9209-60607507622e?responseTime=true" alt="Checkly Availability" />
-   <a href="https://hub.docker.com/r/calcom/cal.com"><img src="https://img.shields.io/docker/pulls/calcom/cal.com"></a>
-   <a href="https://twitch.tv/calcomtv"><img src="https://img.shields.io/twitch/status/calcomtv?style=flat"></a>
-   <a href="https://github.com/calcom/cal.com/issues?q=is:issue+is:open+label:%22%F0%9F%99%8B%F0%9F%8F%BB%E2%80%8D%E2%99%82%EF%B8%8Fhelp+wanted%22"><img src="https://img.shields.io/badge/Help%20Wanted-Contribute-blue"></a>
-   <a href="https://cal.com/figma"><img src="https://img.shields.io/badge/Figma-Design%20System-blueviolet"></a>
-   <a href="https://contributor-covenant.org/version/1/4/code-of-conduct/ "><img src="https://img.shields.io/badge/Contributor%20Covenant-1.4-purple" /></a>
-   <a href="https://console.algora.io/org/cal/bounties?status=open"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fconsole.algora.io%2Fapi%2Fshields%2Fcal%2Fbounties%3Fstatus%3Dopen" /></a>
+   
 </p>
 
 <!-- ABOUT THE PROJECT -->
@@ -58,7 +39,7 @@ That's where Cal.com comes in. Self-hosted or hosted by us. White-label by desig
 
 ## Recognition
 
-#### [Hacker News](https://news.ycombinator.com/from?site=cal.com)
+
 
 <a href="https://news.ycombinator.com/item?id=34507672">
   <img
@@ -76,7 +57,6 @@ That's where Cal.com comes in. Self-hosted or hosted by us. White-label by desig
   />
 </a>
 
-#### [Product Hunt](https://producthunt.com/products/cal-com?utm_source=badge-top-post-badge&utm_medium=badge)
 
 <a href="https://producthunt.com/posts/calendso?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-calendso" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=291910&theme=light&period=monthly" alt="Cal.com - The open source Calendly alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> <a href="https://producthunt.com/posts/calendso?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-calendso" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=291910&theme=light" alt="Cal.com - The open source Calendly alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a> <a href="https://producthunt.com/stories/how-this-open-source-calendly-alternative-rocketed-to-product-of-the-day" target="_blank"><img src="https://cal.com/maker-grant.svg" alt="Cal.com - The open source Calendly alternative | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
@@ -91,11 +71,7 @@ This project is tested with browserstack
 - [Prisma.io](https://prisma.io/?ref=cal.com)
 - [Daily.co](https://go.cal.com/daily)
 
-## Contact us
 
-Meet our sales team for any commercial inquiries.
-
-<a href="https://cal.com/sales"><img src="https://cal.com/book-with-cal-dark.svg" alt="Book us with Cal.com"></a>
 
 ## Stay Up-to-Date
 
@@ -123,8 +99,7 @@ Here is what you need to be able to run Cal.com.
 
 ### Setup
 
-1. Clone the repo into a public GitHub repository (or fork https://github.com/calcom/cal.com/fork). If you plan to distribute the code, keep the source code public to comply with [AGPLv3](https://github.com/calcom/cal.com/blob/main/LICENSE). To clone in a private repository, [acquire a commercial license](https://cal.com/sales)
-
+1. Clone the repo into a public GitHub repository (or fork https://github.com/calcom/cal.com/fork). 
    ```sh
    git clone https://github.com/calcom/cal.com.git
    ```
